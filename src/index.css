@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@700&family=Share+Tech+Mono&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background: #0f111a;
+  color: #f8f8ff;
+  font-family: 'Share Tech Mono', 'Orbitron', 'monospace', sans-serif;
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+
+h2, h4, h5, h6 {
+  font-family: 'Orbitron', 'Share Tech Mono', 'monospace', sans-serif;
+  color: #00fff7;
+  text-shadow: 0 0 6px #00fff7, 0 0 24px #d400ff;
+  letter-spacing: 2px;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+  background: #181a29;
+}
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(120deg, #00fff7 10%, #ff00cc 90%);
+  border-radius: 8px;
+}
